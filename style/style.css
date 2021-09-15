@@ -436,6 +436,27 @@ body
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    .burgerIconWrapper {display: none;}
+    .mainWrapper {background-image: url('../images/desktop/image-header.jpg');}
+    .transformImageWrapper {background-image: url('../images/desktop/image-transform.jpg');}
+    .graphicImageWrapper {background-image: url('../images/desktop/image-graphic-design.jpg');}
+
+    .photographyImageWrapper {background-image: url('../images/desktop/image-photography.jpg');}
+
+    .bigTextBlockWrapper {height: 500px;}
+    .imageWrapper {height:500px;}
+    .textBlockWrapper {height:500px;}
+    .textBlock {margin-bottom: 0px;}
+    .footerImage {height:300px;}
+    .mainHeading h3 {margin-left: 40px;}
+    .burgerIconWrapper {display: none;}
+    .navListWrapper {width:30%; display: flex; flex-wrap: nowrap;justify-content:space-evenly;}
+    .btnWrapper {display: flex;flex-direction: column;justify-content: center;}
+    .btnWrapper .navBtn {height:40px;background-color:transparent;
+        color:white;border:none; cursor: pointer;font-size:18px;padding:10px}
+    .btnWrapper .navBtn:hover {background-color: white;color:black;
+        text-transform: capitalize;border-radius: 15px;}
   }
   
   @media only screen and (min-width: 1000px) {
@@ -457,10 +478,4 @@ body
     {
         display: flex;
     }
-
-    .footerImage
-    {
-        height: 600px;
-    }
-
   }
