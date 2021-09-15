@@ -15,9 +15,76 @@ body
 
 .mainWrapper
 {
-    height: 750px;
+    height: 600px;
     background-image: url('../images/mobile/image-header.jpg');
     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;    
+}
+
+.headingWrapper
+{
+    width:100%;
+    display: flex;
+}
+
+.mainHeading
+{
+    font-size:25px;
+    color:white;
+    width:70%;
+}
+
+.mainHeading h3
+{
+    margin-left: 20px;
+}
+
+.burgerIconWrapper
+{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.burgerIcon
+{
+    height:45px;
+    width:45px;
+    background-image: url('../images/icon-hamburger.svg');    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    cursor: pointer;
+}
+
+.mainTitle
+{
+    display: flex;
+}
+
+.mainTitleTextWrapper
+{
+    width:80%;
+    color:white;
+    margin:auto
+}
+
+.mainTitleTextWrapper h1
+{
+    font-size:60px;
+    text-align: center;
+}
+
+.downArrowWrapper
+{
+    background-image: url('../images/icon-arrow-down.svg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .banner
@@ -63,9 +130,27 @@ body
     text-align: center;
 }
 
+.textBlockDetails
+{
+    color:hsl(232, 10%, 55%);
+}
+
 .textBlock .LearnMore
 {
     font-size: 22px;
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-underline-position:from-font;
+}
+
+.textBlock .LearnMore1
+{
+    text-decoration-color: #ffd600;
+}
+
+.textBlock .LearnMore2
+{
+    text-decoration-color: #fe7563;
 }
 
 .textBlock  h1
@@ -166,6 +251,7 @@ body
     margin-top: 20px;
     text-align: justify;
     font-size:18px;
+    line-height: 30px;
 }
 
 .clientName
@@ -180,7 +266,7 @@ body
 {
     margin:auto;
     margin-top: 5px;   
-    margin-bottom: 20px; 
+    margin-bottom: 50px; 
     color: hsl(232, 10%, 55%);
 }
 
@@ -243,6 +329,7 @@ body
 {
     text-align: center;
     font-size:32px;
+    color:#2b7262;
 }
 
 .bottomMenuWrapper
@@ -266,6 +353,7 @@ body
     font-size:16px;
     text-decoration: none;
     width:33%;
+    color:#2b7262;
 }
 
 .logosFlexWrapper
