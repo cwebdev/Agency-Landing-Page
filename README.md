@@ -2,6 +2,7 @@
 
 This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). 
 
+Live Site Link: https://cwebdev.github.io/Agency-Landing-Page/
 ## Table of contents
 
 - [Overview](#overview)
@@ -15,7 +16,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ## Overview
 
 An agency landing page (responsive website) developed using HTML, CSS and JavaScript.
-Live Site Link: https://cwebdev.github.io/Agency-Landing-Page/
 
 ### Description
 
