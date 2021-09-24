@@ -21,16 +21,13 @@ An agency landing page (responsive website) developed using HTML, CSS and JavaSc
 
 This landing page of concept agency is developed in HTML5, CSS3 and JavaScript from PSD design. Page is responsive in web and mobile screens. Site performs very well in Google lighthouse performance metrics.
 
-### Screenshot
+### Desktop Screenshot
 
-
-#### Active States Screenshot
-
-
+![](./Agency_Desktop_Screen.png)
 
 #### Mobile Screenshot
 
-
+![](./Agency_Mobile_Screen.png)
 
 ### Links
 Live Site: https://cwebdev.github.io/Agency-Landing-Page/
